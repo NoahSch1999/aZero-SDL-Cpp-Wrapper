@@ -18,14 +18,14 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(SDL3)
 
-#add_library(SDLCppWrapper 
-#    "src/SDLCppWrapper.cpp")
+add_library(SDLCppWrapper 
+    "src/SDLCppWrapper.cpp")
 
 # Swap comment with add_library to run the example project
-add_executable(SDLCppWrapper
-    "src/SDLCppWrapper.cpp" 
-    "examples/main.cpp"
-)
+#add_executable(SDLCppWrapper
+#    "src/SDLCppWrapper.cpp" 
+#    "examples/main.cpp"
+#)
 
 target_include_directories(SDLCppWrapper
     PUBLIC
