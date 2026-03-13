@@ -5,10 +5,6 @@
     "minor": 23,
     "patch": 0
   },
-  "$comment": "NOAH COMMENT",
-  "include": [
-    "other.json"
-  ],
   "configurePresets": [
     {
       "name": "debug",
